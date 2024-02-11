@@ -10,10 +10,9 @@ body {
     font-family: "Open Sans", sans-serif;
     color: var(--text-color);
     text-align: center;
-    background: no-repeat center url('../bg.jpg');
-
+    background: center url('../bg.jpg');
     z-index: 999;
-    width: 100%;
+    /* width: 100%; */
     height: 100vw;
 }
 
