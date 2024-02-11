@@ -2,11 +2,11 @@
 
 html,
 body {
-    background: url('../bg.jpg')  !important;
+    background: center url('../bg.jpg') ;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     font-family: "Open Sans", sans-serif;
     color: var(--text-color);
     text-align: center;
