@@ -2,11 +2,11 @@
 
 html,
 body {
-    background: center url('../bg.jpg') ;
+    /* background: center url('../bg.jpg') ; */
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* background-color: var(--background-color); */
+    background-color: var(--background-color);
     font-family: "Open Sans", sans-serif;
     color: var(--text-color);
     text-align: center;
@@ -107,6 +107,16 @@ a:hover {
 .menu_link {
     font-size: 44px;
 }
+
+.sofa {
+    width: 100%;
+    height: 1000px;
+    background: no-repeat center url('../bg.jpg');
+}
+
+/* .sofa > img {
+    object-fit: cover;
+} */
 
 @media (max-width: 992px) {
     #text-behind,
