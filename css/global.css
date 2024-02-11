@@ -1,0 +1,51 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --menu-headline-color: rgba(21, 5, 5, 0.5);
+    --headline-color: rgb(226, 69, 69);
+    --background-color: #11151c;
+    --help-modal-bg-color: rgba(240, 232, 232, 0.594);
+    --text-color: rgba(204, 42, 42, 0.5);
+    --classic-white: #ad1212;
+    --help-modal-box-shadow: 0 1px 20px 0 rgba(100, 110, 130, 0.16);
+    --help-modal-cross-color: #282520;
+    --operator-repeat-bg-color: #3d50c0;
+    --operator-repeat-hover-bg-color: #596ddc;
+    --menu-button-text-color: #600551;
+    --menu-button-hover-bg-color: #2bceb3;
+    --menu-button-hover-text-color: #e3ecd2;
+    --codeList-bg-color: #2980b9;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color:  #1f2021; */
+    background-color: #11151c;
+    color: var(--headline-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    max-width: 1200px;
+}
